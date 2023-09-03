@@ -1,0 +1,232 @@
+@font-face {
+	font-family: WorkSans;
+	src: url("https://content.codecademy.com/courses/learn-css-grid/project-ii/Resources/Work_Sans/WorkSans-Regular.ttf");
+}
+@font-face {
+	font-family: Poppins;
+	src: url("https://content.codecademy.com/courses/learn-css-grid/project-ii/Resources/Poppins/Poppins-Regular.ttf");
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    background-image: linear-gradient(359deg, #18181c, #de2462);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    display: flex;
+    height: 8%;
+    border: 1px solid rgb(159, 94, 141);
+}
+
+.logo {
+    float: left;
+    height:3em;
+    width: 3em;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 2rem;
+    text-decoration: none;
+}
+.navigation a li {
+    display: table-cell;
+    vertical-align: baseline;
+    color: seashell;
+    text-shadow:2px 2px 1px #000000;
+}
+
+.navigation a li:hover {
+    font-size: 1.25rem;
+}
+
+.search-bar {
+    height: 1.97rem;
+    width: 30rem;
+    background-color: rgba(255, 255, 255,0.35);
+    margin-top: 0.6rem;
+}
+.search-icon {
+    float: left;
+    margin-left: 0.7em;
+    margin-top: 0.35em;
+}
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-evenly;
+    background-color: #830ae5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0.5rem -0.5rem 0.5rem .05rem  #830ae5;
+}
+
+.head_image {
+    width: 22%;
+    height: 100%;
+}
+.head_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    border: 2px solid #96c52d;
+    box-shadow: 0.2rem -0.1rem #de2462;
+    
+}
+
+.head_image img:hover {
+    width: 18%;
+    height: 50%;
+    transition: 5s ease-in-out;
+}
+
+.main-container {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    background-color: yellow;
+    justify-items: center;
+    border: 2px solid white;
+}
+
+.heading {
+    color:rgb(13, 12, 12);
+    font-style: italic;
+    font-size: 1.5rem;
+    width: 75%;
+    padding-top: 2rem;
+}
+
+.main-img-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-shrink: 1;
+    
+}
+
+.trend-img {
+    margin-top: 1rem;
+    width: 20%;
+    height: 50%;
+}
+
+.trend-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0.5rem -0.5rem 0.5rem .05rem  #830ae5;
+    transition: 0.2s ease-in-out;
+}
+
+.trend-img img:hover {
+    width: 110%;
+    height: 110%;
+}
+
+.trend-img h4 {
+    font-size: 1.2rem;
+    color: rgb(7, 42, 78);
+}
+
+.trend-img h4:hover{
+    font-size: 1.25rem;
+}
+
+.mission-container {
+    background-image: url(../images/Header_image5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.banner {
+    width: 100%;
+    height: 70%;
+    background-color: aqua;
+    background-image: url(../images/Location.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.text-top {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: navy
+}
+
+.Location-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.city {
+    box-sizing: border-box;
+    width: 20%;
+    background-color: #cd0e4f;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+
+}
+
+.city:hover {
+    width: 15%;
+    height: 28;
+}
+.box {
+    width: 80%;
+    height: 20%;
+    margin: 3rem;
+    color: currentColor;
+}
+
+.contact {
+    height: 16%;
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    padding-top: 2em;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    padding-left: 1rem;
+    background-color: #cd0e4f;
+}
+
+h3 {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 2em;
+}
